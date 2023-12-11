@@ -12,7 +12,7 @@ public class Test {
 		ApplicationContext ctxt = new AnnotationConfigApplicationContext(AppConfig.class);
 		ReportService r = ctxt.getBean(ReportService.class);
 		r.generateReport();
-		int 1=0;
+		int k=9;
 	}
 
 }
